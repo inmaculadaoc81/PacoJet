@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pacojetech.com.es/sitemap.xml
