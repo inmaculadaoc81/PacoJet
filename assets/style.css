@@ -1,5 +1,5 @@
 
-:root{--ink:#16231f;--cream:#f5f1e8;--paper:#fffdf8;--sage:#476b5c;--lime:#c6d66d;--line:#d8d7ce;--muted:#66716d}
+:root{--ink:#111318;--cream:#f5f8fc;--paper:#ffffff;--sage:#126fe6;--lime:#2f8cff;--line:#d7e0ea;--muted:#607082;--blue:#126fe6;--blue2:#0757bd}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--paper);line-height:1.65}
 a{color:inherit}.wrap{width:min(1180px,92%);margin:auto}.top{position:sticky;top:0;z-index:1000;background:rgba(255,253,248,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
 .nav{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{font-weight:900;font-size:23px;text-decoration:none;letter-spacing:-.6px}.brand i{font-style:normal;color:var(--sage)}
@@ -19,3 +19,21 @@ footer{padding:38px 0;background:#101815;color:#dbe2df}.foot{display:flex;justif
 .subhero{padding:62px 0 42px;background:var(--cream)}.subhero h1{font-size:clamp(38px,5vw,62px)}.article{display:grid;grid-template-columns:1fr 330px;gap:55px}.article main p{font-size:17px}.side{background:var(--ink);color:#fff;padding:26px;position:sticky;top:105px;height:max-content}.side .btn{background:var(--lime);color:var(--ink);display:flex;margin:10px 0}
 .related{display:flex;flex-wrap:wrap;gap:8px}.related a{border:1px solid var(--line);padding:8px 11px;text-decoration:none;border-radius:99px}
 @media(max-width:850px){.menu{gap:13px}.menu>a,.drop>button{font-size:14px}.hero-grid,.split,.article{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.info{box-shadow:9px 9px 0 var(--lime)}.side{position:static}h1{letter-spacing:-2px}.nav{align-items:flex-start;padding:14px 0;flex-direction:column}.menu{width:100%;overflow-x:auto}.panel{position:fixed;left:4%;top:120px;width:92%;max-height:65vh;overflow:auto}.top{position:relative}}
+
+/* PacTech branding from supplied logo */
+.brand img{width:250px;max-height:58px;object-fit:contain}
+.top{background:rgba(255,255,255,.97)}
+.hero{background:linear-gradient(135deg,#f7fbff 0%,#edf5ff 62%,#ffffff 100%)}
+.info{background:#111318;box-shadow:18px 18px 0 #126fe6}
+.notice{background:#126fe6;color:#fff}
+.btn.alt{background:#126fe6;color:#fff}
+.btn.line{border-color:#126fe6;color:#126fe6}
+.dark{background:#111318}
+.float-wa{background:#25D366}
+.float-wa svg,.wa svg{width:24px!important;height:24px!important;display:block}
+.float-wa svg{color:#fff}
+.wa{background:#25D366!important;color:#fff!important;border:0}
+.wa:hover{filter:brightness(.96)}
+.side .btn{background:#126fe6;color:#fff}
+.side .btn:first-of-type{background:#ffffff;color:#111318}
+.chat-window-toggle{background:#126fe6!important;color:#fff!important}
