@@ -37,3 +37,9 @@ footer{padding:38px 0;background:#101815;color:#dbe2df}.foot{display:flex;justif
 .side .btn{background:#126fe6;color:#fff}
 .side .btn:first-of-type{background:#ffffff;color:#111318}
 .chat-window-toggle{background:#126fe6!important;color:#fff!important}
+
+/* WhatsApp header button: horizontal, crisp icon */
+.menu > .wa{display:inline-flex!important;align-items:center!important;justify-content:center!important;gap:8px!important;min-width:128px!important;height:44px!important;padding:0 17px!important;border-radius:10px!important;line-height:1!important;white-space:nowrap!important}
+.menu > .wa svg{display:block!important;width:21px!important;height:21px!important;min-width:21px!important;flex:0 0 21px!important;margin:0!important;color:#fff!important;overflow:visible!important}
+.menu > .wa svg path{fill:currentColor!important}
+@media(max-width:850px){.menu > .wa{height:40px!important;min-width:118px!important;padding:0 14px!important}.menu > .wa svg{width:20px!important;height:20px!important;min-width:20px!important}}
