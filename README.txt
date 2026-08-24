@@ -1,11 +1,18 @@
-PacTech web para Vercel
-Variables necesarias:
-GMAIL_CLIENT_ID
-GMAIL_CLIENT_SECRET
-GMAIL_REFRESH_TOKEN
-GMAIL_FROM=soporte@kelatos.com
-Opcional: GMAIL_REDIRECT_URI=https://developers.google.com/oauthplayground
+PACTECH ONE PAGE
 
-El teléfono +34 918 29 06 56 aparece solo en la caja de información del hero.
-El teléfono de acción de páginas y botones es +34 914 46 85 03.
-Diagnóstico: 20 € + IVA.
+Dominio: https://pacojetech.com.es/
+Teléfono solo caja de información del hero: +34 918 29 06 56
+Teléfono de botones de llamada: +34 914 46 85 03
+Diagnóstico: 20 € + IVA
+
+Se mantiene la misma estructura de GigabyteTech y se adaptan únicamente textos, identidad visual y colores.
+
+Variables SMTP compartidas en Vercel:
+SMTP_HOST=cp7124.webempresa.eu
+SMTP_PORT=465
+SMTP_SECURE=true
+SMTP_USER=soporte@kelatos.com
+SMTP_PASS=[configurada únicamente en Vercel]
+CONTACT_EMAIL=soporte@kelatos.com
+
+El correo no aparece visible en la web; solo se usa en backend.
