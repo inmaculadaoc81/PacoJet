@@ -12,6 +12,13 @@
 <meta property="og:description" content="Si tu Pacojet no funciona como debería, revisamos qué ocurre y qué opciones de reparación tienes.">
 <meta property="og:url" content="https://pacojetech.com.es/">
 <meta property="og:type" content="website">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BQC3ZMDG6G"></script>
+<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments)}
+gtag('js',new Date());
+gtag('config','G-BQC3ZMDG6G');
+</script>
 </head>
 <body>
 
@@ -24,8 +31,9 @@
       <a href="#datos">Tus datos</a>
       <a href="#recogida">Recogida</a>
       <a href="#cita">Pedir cita</a>
+      <a href="#guia">Guía</a>
       <a href="#contacto">Contacto</a>
-      <a class="navcall" href="tel:+34914468503">Atención Telefónica 24 horas 365 días</a>
+      <a class="navcall" href="tel:+34914468503">+34 914 46 85 03</a>
     </nav>
 
     <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainMenu">Menú</button>
@@ -196,6 +204,18 @@
   </div>
 </section>
 
+<section class="seo-content" id="guia">
+  <div class="wrap">
+    <div class="kicker">Servicio técnico PacoJet en Madrid</div>
+    <h2 class="title">Reparación de PacoJet, explicada sin tecnicismos</h2>
+    <div class="seo-text">
+      <p>En PacTech reparamos equipos PacoJet en Madrid: PacoJet 1, PacoJet 2, PacoJet 2 Plus, PacoJet 4 y PacoJet Junior. No importa si el problema es de encendido, de potencia, de la cuchilla o del sistema de presión: antes de hablar de precios, revisamos el equipo para entender qué está fallando realmente. Ese diagnóstico tiene un coste fijo de 20 € + IVA.</p>
+      <p>La mayoría de las averías de un PacoJet no requieren sustituir el equipo entero: un fallo de potencia puede estar en el motor, en la electrónica o en el eje, y cada causa se aborda de forma distinta. Por eso no damos presupuestos a ciegas ni cambiamos piezas al azar, algo especialmente importante en un equipo de cocina profesional que necesita volver a funcionar con garantías.</p>
+      <p>Puedes traer tu PacoJet a nuestras instalaciones en Madrid o solicitar la recogida si no quieres desplazarte. Te mantenemos informado por teléfono o WhatsApp durante todo el proceso, y solo empezamos la reparación cuando ya conoces el diagnóstico y el coste.</p>
+    </div>
+  </div>
+</section>
+
 <section class="faq">
   <div class="wrap">
     <div class="kicker">Preguntas frecuentes</div>
@@ -313,6 +333,49 @@ form.addEventListener('submit',async(e)=>{
   "areaServed":"Madrid",
   "sameAs":["https://maps.app.goo.gl/8zLUDgBgmNw2MSVj7","https://www.youtube.com/channel/UCaxAqLD9Mk5gvzqoDedlWSA"]
 }
+</script>
+<div id="cookie-banner" class="cookie-banner" hidden>
+  <p>Utilizamos cookies y tecnologías similares propias y de terceros, de sesión o persistentes, para hacer funcionar de manera segura nuestra página web y personalizar su contenido. Igualmente, utilizamos cookies para medir y obtener datos de la navegación que realizas y para ajustar la publicidad a tus gustos y preferencias. Puedes aceptar el uso de cookies a continuación.</p>
+  <div class="cookie-actions">
+    <button type="button" class="cookie-btn" id="cookie-accept">Aceptar</button>
+    <button type="button" class="cookie-btn" id="cookie-reject">Rechazar</button>
+    <a class="cookie-btn cookie-link" href="https://kelatos.com/privacy-policy/" target="_blank" rel="noopener">Política de privacidad</a>
+  </div>
+  <button type="button" class="cookie-close" id="cookie-close" aria-label="Cerrar">&times;</button>
+</div>
+<style>
+.cookie-banner{position:fixed;left:0;right:0;bottom:0;z-index:99999;background:#22262f;color:#fff;padding:20px 56px 20px 20px;flex-wrap:wrap;align-items:center;justify-content:center;gap:16px;text-align:center;box-shadow:0 -8px 30px rgba(0,0,0,.25);font-family:Arial,Helvetica,sans-serif}
+.cookie-banner:not([hidden]){display:flex}
+.cookie-banner p{margin:0;max-width:900px;font-size:13.5px;line-height:1.5;flex:1 1 500px;color:#fff}
+.cookie-actions{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;flex:0 0 auto}
+.cookie-btn{display:inline-block;border:0;background:#1fb6ad;color:#fff!important;font-weight:700;font-size:13.5px;padding:10px 18px;border-radius:6px;cursor:pointer;text-decoration:none;white-space:nowrap}
+.cookie-btn:hover{background:#189d95}
+.cookie-close{position:absolute;top:10px;right:14px;background:transparent;border:0;color:#aab0bb;font-size:22px;line-height:1;cursor:pointer;padding:6px 8px}
+.cookie-close:hover{color:#fff}
+@media(max-width:700px){
+  .cookie-banner{padding:18px 40px 18px 16px;text-align:left}
+  .cookie-banner p{font-size:12.5px}
+  .cookie-actions{flex-direction:column;align-items:stretch;width:100%}
+  .cookie-btn{width:100%;text-align:center;padding:12px 16px}
+}
+</style>
+<script>
+(function(){
+  var KEY='kelatos_cookie_consent';
+  var banner=document.getElementById('cookie-banner');
+  if(!banner) return;
+  var already=false;
+  try{ already=!!localStorage.getItem(KEY); }catch(e){}
+  if(already){ banner.hidden=true; return; }
+  banner.hidden=false;
+  function setConsent(value){
+    try{ localStorage.setItem(KEY,value); }catch(e){}
+    banner.hidden=true;
+  }
+  var a=document.getElementById('cookie-accept'); if(a) a.addEventListener('click',function(){setConsent('accepted')});
+  var r=document.getElementById('cookie-reject'); if(r) r.addEventListener('click',function(){setConsent('rejected')});
+  var c=document.getElementById('cookie-close'); if(c) c.addEventListener('click',function(){setConsent('dismissed')});
+})();
 </script>
 </body>
 </html>
