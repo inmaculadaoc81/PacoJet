@@ -36,3 +36,14 @@ Este sitio era antes multipágina (tenía /servicios/... y /modelos/...,
 eliminados en commits anteriores al pasar a one-page). Añadido
 middleware.mjs: cualquier URL que no sea "/" redirige (301) a la home.
 Añadida la dependencia "@vercel/functions" en package.json.
+
+REVISIÓN ADICIONAL (esta pasada):
+- H1 no seguía la regla final de la familia: era largo y contenía la
+  palabra condicional "si merece la pena repararlo". Reescrito, corto
+  y afirmativo: "Tu Pacojet no tritura bien. Aquí lo revisamos
+  rápido." (9 palabras).
+- Verificado: schema.org ya usaba correctamente el teléfono de la caja
+  de información (+34 918 29 06 56); borde del chat, sección SEO,
+  banner de cookies y dominio ya correctos. El color --cyan del
+  proyecto es la paleta propia de PacoJet (no residual); no se ha
+  tocado. No se ha cambiado nada más.
