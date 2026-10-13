@@ -182,3 +182,4 @@ footer{background:#050607;color:#fff;padding:34px 0}
   #n8n-chat .chat-window:not([class*="toggle"]),#n8n-chat [class*="chat-window"]:not([class*="toggle"]){left:12px!important;right:12px!important;width:auto!important;bottom:166px!important}
 }
 .quote:hover{filter:brightness(.88)}
+.quote svg{width:20px!important;height:20px!important;max-width:20px!important;max-height:20px!important;flex:0 0 20px!important}
