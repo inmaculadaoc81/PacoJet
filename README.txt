@@ -100,3 +100,14 @@ REVISIÓN ADICIONAL (nueva regla de menú móvil, a petición del cliente):
   mantenía fijo/pegado arriba al hacer scroll; no requería cambios.
 - Verificado de nuevo: el checklist de 7 puntos ya estaba aplicado de
   una pasada anterior; no requería cambios.
+
+BLOG (/blog):
+- Los artículos NO viven en este repositorio: los genera y aprueba el agente
+  SEO de Kelatos (Agentes V2 → organización «PacTech», clave pactech)
+  y se leen en vivo de la API pública de Kelatos, sin token:
+  https://db.affirmatechnology.com/kelatos-api/publico/blog?org=pactech
+- api/blog.js + lib/blog.js generan /blog y /blog/<slug> en el servidor.
+- api/sitemap.js genera /sitemap.xml (se eliminó el sitemap.xml estático).
+- Estilos en assets/blog.css. Enlace «Blog» en el menú y en el pie.
+- Diagnóstico de pago: su importe va solo en la plantilla del blog, nunca en
+  la estrategia del agente (el validador rechaza cifras en euros).
